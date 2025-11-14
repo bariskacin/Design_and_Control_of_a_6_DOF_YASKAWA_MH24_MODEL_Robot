@@ -1,13 +1,22 @@
-# MATLAB intermediate files
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Matlab / Simulink generated files
+Matlab/slprj/
+Matlab/Robot5.slxc
+Matlab/Exceptions.log
+slprj/
 *.slxc
 *.asv
-slprj/
 *.mex*
 
-# Editor and OS files
-.vscode/
-.idea/
-Thumbs.db
-.DS_Store
+# Logs
 *.log
-*.tmp
+
+# Videos and large binaries (optional – comment out if you want to keep tracking them)
+#*.avi
+

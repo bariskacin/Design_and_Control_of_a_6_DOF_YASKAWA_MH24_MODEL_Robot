@@ -1,18 +1,25 @@
-# Robot Tasarımı Vize Projesi
+# Robot Design and Control Project
 
-Bu proje, MH24 robot kolunun kinematik ve dinamik kontrolünü MATLAB ortamında simüle eden çalışmaların toplandığı bir derlemedir. İçinde *MATLAB* modelleri, yapılandırılmış STEP dosyaları ve proje kayıtları yer alır.
+This repository contains the files for the **Robot Design and Control** (Robot Tasarımı) course project. It includes:
 
-## İçindekiler
-- `Matlab/`: MATLAB dosyaları, simülasyon modelleri ve yardımcı betikler.
-- `sldprt/` & `step/`: Parça modellerinin SolidWorks çıktıları.
-- Videolar: Proje sunumlarına ait `.avi` kayıtları.
+- Matlab/Simulink model files
+- STEP and SLDPRT files for the robot model
+- Example videos of the simulated robot
 
-## Çalıştırma
-1. `Matlab/Robot5.slx` modelini MATLAB Simulink'te açın.
-2. Gerekli eksen parametrelerini ve PDO bağlantılarını proje betikleri üzerinden kontrol edin.
-3. `Matlab/create_MH24_model.m` gibi betikler bu yapılandırmaların otomasyonunu sağlar.
+## Matlab Model Screenshot
 
-## Görsel
-![Robot Simülasyonu](Matlab/Screenshot%202025-11-14%20194719.png)
+The following image shows the Matlab/Simulink model used in this project:
 
-Herhangi bir soru için MATLAB karakteristik kontrolleri ve simülasyon ayarlarının projede yer alan `Exceptions.log` dosyasındaki açıklamaları inceleyebilirsiniz.
+![Matlab Simulink Model](Matlab/Screenshot%202025-11-14%20194719.png)
+
+## Project Structure
+
+- `Matlab/` – Matlab and Simulink model files, assets, and generated artifacts.
+- `sldprt/` – Part files for the robot model.
+- `step/` – STEP files for the robot model.
+- `*.avi` – Demo videos of the robot project.
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0 (GNU GPLv3)**. See the `LICENSE` file for details.
+
