@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_rtp/R2023a">
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="827462ad-2b34-4141-9acf-66cfa6132642">
+    <workspaceName>global-workspace</workspaceName>
+    <name>tp</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a564f58d-5d75-4a2b-9033-348058a7f3ad"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.ModelMetadata type="slsa.mm.param.rtp.ModelMetadata" uuid="f23b0107-a023-41ad-914c-01af5db0f350">
+    <modelName>Robot</modelName>
+  </slsa.mm.param.rtp.ModelMetadata>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="4115ff92-07b3-4cb3-a947-a3766d5487ad">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="96ec4ee2-be36-430c-b732-3b7edfe171a2"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="393d3f08-b244-4abe-8aed-736907e3f25e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="c188027b-8658-49ba-a2d2-8de60e4d720f">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="d987d8b1-bb8f-4d43-9141-35572bcc8323"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9db7b34f-4349-4862-8afc-c205beb8d50b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="393d3f08-b244-4abe-8aed-736907e3f25e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4115ff92-07b3-4cb3-a947-a3766d5487ad"/>
+    <valueIndices>0</valueIndices>
+    <valueIndices>17</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="96ec4ee2-be36-430c-b732-3b7edfe171a2">
+    <workspaceName>global-workspace</workspaceName>
+    <name>bc</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="4115ff92-07b3-4cb3-a947-a3766d5487ad"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a564f58d-5d75-4a2b-9033-348058a7f3ad">
+    <id type="slsa.mm.param.rtp.VariableId" uuid="827462ad-2b34-4141-9acf-66cfa6132642"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8b1a1285-f637-4e21-ade2-f6951d4bab4e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8b1a1285-f637-4e21-ade2-f6951d4bab4e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a564f58d-5d75-4a2b-9033-348058a7f3ad"/>
+    <valueIndices>18</valueIndices>
+    <valueIndices>20</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.VariableId type="slsa.mm.param.rtp.VariableId" uuid="d987d8b1-bb8f-4d43-9141-35572bcc8323">
+    <workspaceName>global-workspace</workspaceName>
+    <name>wp</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c188027b-8658-49ba-a2d2-8de60e4d720f"/>
+  </slsa.mm.param.rtp.VariableId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9db7b34f-4349-4862-8afc-c205beb8d50b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="c188027b-8658-49ba-a2d2-8de60e4d720f"/>
+    <valueIndices>21</valueIndices>
+    <valueIndices>38</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+</MF0>

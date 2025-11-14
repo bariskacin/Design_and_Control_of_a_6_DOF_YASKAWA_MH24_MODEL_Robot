@@ -1,22 +1,41 @@
-# OS / editor
+# MATLAB / Simulink / Windows ignores
+/
+# MATLAB generated
+/slprj/
+/work/
+*.asv
+*.mcr
+*.mexw64
+*.mexw32
+*.mexmaci64
+*.mexmaci
+*.mexglx
+
+# Simulink generated
+/slprj/
+/R202*/
+
+# Build artifacts
+*.o
+*.obj
+*.dll
+*.exe
+
+# MATLAB settings
+*.mltbx
+*.mat
+*.fig
+
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
 desktop.ini
-*.swp
-*.swo
 
-# Matlab / Simulink generated files
-Matlab/slprj/
-Matlab/Robot5.slxc
-Matlab/Exceptions.log
-slprj/
-*.slxc
-*.asv
-*.mex*
+# Visual Studio / VS Code
+/.vscode/
+.vs/
 
-# Logs
-*.log
-
-# Videos and large binaries (optional – comment out if you want to keep tracking them)
-#*.avi
-
+# OneDrive temp files
+~$*

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_graph/R2021b">
+  <slsa.mm.param.graph.VariableRegistry type="slsa.mm.param.graph.VariableRegistry" uuid="2dd7f3b8-a3a9-410d-89b5-c40f9df33ab4">
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="84d00f40-94b6-4a45-b54d-f9ce6cecf305">
+      <blockPath>Robot/Subsystem/Solver Configuration/port</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="882b7a1d-fd90-4c8d-abe8-8bfa1291a08e"/>
+      <needsEvaluationResult>false</needsEvaluationResult>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="f48d105a-aade-4cde-9715-a5bc7dbd1a28">
+      <expression>0</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="03ff5de7-a4c3-4ba3-957b-069699be16e7"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="882b7a1d-fd90-4c8d-abe8-8bfa1291a08e">
+      <expression>UseLocalSolver * LocalSolverSampleTime - (~UseLocalSolver)</expression>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="84d00f40-94b6-4a45-b54d-f9ce6cecf305"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="861bfb82-ebcf-427b-a501-594eb54ac420"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="8b39f974-dbac-45d2-92ce-9075e64265b5"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="d8bcb676-588b-4d02-b29f-a07f1ca2f5aa">
+      <expression>0.001</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="eeab55f6-abc7-4d54-8df2-62e4667bbc4c"/>
+    </expressions>
+    <name>Robot</name>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="03ff5de7-a4c3-4ba3-957b-069699be16e7">
+      <variable type="slsa.mm.param.graph.Variable" uuid="8b39f974-dbac-45d2-92ce-9075e64265b5"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="f48d105a-aade-4cde-9715-a5bc7dbd1a28"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="eeab55f6-abc7-4d54-8df2-62e4667bbc4c">
+      <variable type="slsa.mm.param.graph.Variable" uuid="861bfb82-ebcf-427b-a501-594eb54ac420"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="d8bcb676-588b-4d02-b29f-a07f1ca2f5aa"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variables type="slsa.mm.param.graph.Variable" uuid="861bfb82-ebcf-427b-a501-594eb54ac420">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="eeab55f6-abc7-4d54-8df2-62e4667bbc4c"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="882b7a1d-fd90-4c8d-abe8-8bfa1291a08e"/>
+      <name>LocalSolverSampleTime</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="1661609b-8101-437d-9da0-dc8d2c5ff7de"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="ae1fdb14-5edc-4297-887f-319375ff1b20">
+      <name>bc</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="060406b3-c8ba-443e-ad63-fd96069b54ad"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="2288872f-cccd-4312-92b6-37d510f810cd">
+      <name>tp</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="060406b3-c8ba-443e-ad63-fd96069b54ad"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="84bb8607-ed7e-423c-a60a-ca42b0502046">
+      <name>wp</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="060406b3-c8ba-443e-ad63-fd96069b54ad"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="8b39f974-dbac-45d2-92ce-9075e64265b5">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="03ff5de7-a4c3-4ba3-957b-069699be16e7"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="882b7a1d-fd90-4c8d-abe8-8bfa1291a08e"/>
+      <name>UseLocalSolver</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="1661609b-8101-437d-9da0-dc8d2c5ff7de"/>
+    </variables>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="1661609b-8101-437d-9da0-dc8d2c5ff7de">
+      <name>Robot/Subsystem/Solver Configuration</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.param.graph.Variable" uuid="8b39f974-dbac-45d2-92ce-9075e64265b5"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="861bfb82-ebcf-427b-a501-594eb54ac420"/>
+    </workspaces>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="060406b3-c8ba-443e-ad63-fd96069b54ad">
+      <name>global-workspace</name>
+      <variables type="slsa.mm.param.graph.Variable" uuid="ae1fdb14-5edc-4297-887f-319375ff1b20"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="2288872f-cccd-4312-92b6-37d510f810cd"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="84bb8607-ed7e-423c-a60a-ca42b0502046"/>
+    </workspaces>
+    <contextManager type="slsa.mm.param.graph.ContextManager" uuid="5e8c0a42-246a-40de-a5be-3354b683f475"/>
+  </slsa.mm.param.graph.VariableRegistry>
+</MF0>

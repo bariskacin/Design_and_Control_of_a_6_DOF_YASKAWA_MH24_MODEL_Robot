@@ -1,0 +1,437 @@
+
+
+28-Oct-2025 15:02:08 Error using Simulink.findVars
+Failed to compile model '<a href="matlab:open_system ('Robot')">Robot</a>'. Cached results might be incomplete.
+Error in simulink.sim.Variables/keys
+Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+Error in simulink.ui.control.VariableTuner/updateGUI
+Error in simulink.ui.control.VariableTuner/update
+Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+Caused by:
+    Error using Simulink.findVars
+    Error due to multiple causes.
+    
+    Error in simulink.sim.Variables/keys
+    
+    Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+    
+    Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+    
+    Error in simulink.ui.control.VariableTuner/updateGUI
+    
+    Error in simulink.ui.control.VariableTuner/update
+    
+    Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+        Error using Simulink.findVars
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['Robot/Polynomial Trajectory'],'Waypoints');">'Waypoints'</a> in '<a href="matlab:open_and_hilite_hyperlink ('Robot/Polynomial Trajectory','error')">Robot/Polynomial Trajectory</a>'
+        
+        Error in simulink.sim.Variables/keys
+        
+        Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+        
+        Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+        
+        Error in simulink.ui.control.VariableTuner/updateGUI
+        
+        Error in simulink.ui.control.VariableTuner/update
+        
+        Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+            Error using Simulink.findVars
+            Unrecognized function or variable 'wp'.
+            
+            Error in simulink.sim.Variables/keys
+            
+            Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+            
+            Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+            
+            Error in simulink.ui.control.VariableTuner/updateGUI
+            
+            Error in simulink.ui.control.VariableTuner/update
+            
+            Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+                Error using Simulink.findVars
+                Variable 'wp' has been deleted from base workspace.
+                
+                Error in simulink.sim.Variables/keys
+                
+                Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+                
+                Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+                
+                Error in simulink.ui.control.VariableTuner/updateGUI
+                
+                Error in simulink.ui.control.VariableTuner/update
+                
+                Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'Robot', 'wp')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'wp', 'Robot', 'base workspace', 'normal', 'Waypoints', 'Robot/Polynomial Trajectory', ' ')">Fix</a>
+        Error using Simulink.findVars
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['Robot/Polynomial Trajectory'],'TimePoints');">'TimePoints'</a> in '<a href="matlab:open_and_hilite_hyperlink ('Robot/Polynomial Trajectory','error')">Robot/Polynomial Trajectory</a>'
+        
+        Error in simulink.sim.Variables/keys
+        
+        Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+        
+        Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+        
+        Error in simulink.ui.control.VariableTuner/updateGUI
+        
+        Error in simulink.ui.control.VariableTuner/update
+        
+        Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+            Error using Simulink.findVars
+            Unrecognized function or variable 'tp'.
+            
+            Error in simulink.sim.Variables/keys
+            
+            Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+            
+            Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+            
+            Error in simulink.ui.control.VariableTuner/updateGUI
+            
+            Error in simulink.ui.control.VariableTuner/update
+            
+            Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+                Error using Simulink.findVars
+                Variable 'tp' has been deleted from base workspace.
+                
+                Error in simulink.sim.Variables/keys
+                
+                Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+                
+                Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+                
+                Error in simulink.ui.control.VariableTuner/updateGUI
+                
+                Error in simulink.ui.control.VariableTuner/update
+                
+                Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'Robot', 'tp')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'tp', 'Robot', 'base workspace', 'normal', 'TimePoints', 'Robot/Polynomial Trajectory', ' ')">Fix</a>
+        Error using Simulink.findVars
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['Robot/Polynomial Trajectory'],'VelocityBoundaryCondition');">'VelocityBoundaryCondition'</a> in '<a href="matlab:open_and_hilite_hyperlink ('Robot/Polynomial Trajectory','error')">Robot/Polynomial Trajectory</a>'
+        
+        Error in simulink.sim.Variables/keys
+        
+        Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+        
+        Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+        
+        Error in simulink.ui.control.VariableTuner/updateGUI
+        
+        Error in simulink.ui.control.VariableTuner/update
+        
+        Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+            Error using Simulink.findVars
+            Unrecognized function or variable 'bc'.
+            
+            Error in simulink.sim.Variables/keys
+            
+            Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+            
+            Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+            
+            Error in simulink.ui.control.VariableTuner/updateGUI
+            
+            Error in simulink.ui.control.VariableTuner/update
+            
+            Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+                Error using Simulink.findVars
+                Variable 'bc' has been deleted from base workspace.
+                
+                Error in simulink.sim.Variables/keys
+                
+                Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+                
+                Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+                
+                Error in simulink.ui.control.VariableTuner/updateGUI
+                
+                Error in simulink.ui.control.VariableTuner/update
+                
+                Error in matlab.ui.componentcontainer.ComponentContainer/executeUpdate
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'Robot', 'bc')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'bc', 'Robot', 'base workspace', 'normal', 'VelocityBoundaryCondition', 'Robot/Polynomial Trajectory', ' ')">Fix</a>
+
+28-Oct-2025 15:02:16 Error using Simulink.findVars
+Failed to compile model '<a href="matlab:open_system ('Robot')">Robot</a>'. Cached results might be incomplete.
+Error in simulink.sim.Variables/keys
+Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+Error in simulink.ui.control.VariableTuner/updateGUI
+Error in simulink.internal.SLComponent/updateGUIWrapper
+Error in simulink.internal.SLComponent/modelSelectionChanged
+Error in simulink.internal.SLComponent/initSimulation
+Error in simulink.internal.SLComponent/set.Simulation
+Error in Robot_SLSimApp/createComponents (line 580)
+            app.VariableTuner.Simulation = app.Simulation;
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in Robot_SLSimApp (line 679)
+            createComponents(app)
+            ^^^^^^^^^^^^^^^^^^^^^
+Caused by:
+    Error using Simulink.findVars
+    Error due to multiple causes.
+    
+    Error in simulink.sim.Variables/keys
+    
+    Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+    
+    Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+    
+    Error in simulink.ui.control.VariableTuner/updateGUI
+    
+    Error in simulink.internal.SLComponent/updateGUIWrapper
+    
+    Error in simulink.internal.SLComponent/modelSelectionChanged
+    
+    Error in simulink.internal.SLComponent/initSimulation
+    
+    Error in simulink.internal.SLComponent/set.Simulation
+    
+    Error in Robot_SLSimApp/createComponents (line 580)
+                app.VariableTuner.Simulation = app.Simulation;
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    Error in Robot_SLSimApp (line 679)
+                createComponents(app)
+                ^^^^^^^^^^^^^^^^^^^^^
+        Error using Simulink.findVars
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['Robot/Polynomial Trajectory'],'Waypoints');">'Waypoints'</a> in '<a href="matlab:open_and_hilite_hyperlink ('Robot/Polynomial Trajectory','error')">Robot/Polynomial Trajectory</a>'
+        
+        Error in simulink.sim.Variables/keys
+        
+        Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+        
+        Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+        
+        Error in simulink.ui.control.VariableTuner/updateGUI
+        
+        Error in simulink.internal.SLComponent/updateGUIWrapper
+        
+        Error in simulink.internal.SLComponent/modelSelectionChanged
+        
+        Error in simulink.internal.SLComponent/initSimulation
+        
+        Error in simulink.internal.SLComponent/set.Simulation
+        
+        Error in Robot_SLSimApp/createComponents (line 580)
+                    app.VariableTuner.Simulation = app.Simulation;
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        Error in Robot_SLSimApp (line 679)
+                    createComponents(app)
+                    ^^^^^^^^^^^^^^^^^^^^^
+            Error using Simulink.findVars
+            Unrecognized function or variable 'wp'.
+            
+            Error in simulink.sim.Variables/keys
+            
+            Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+            
+            Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+            
+            Error in simulink.ui.control.VariableTuner/updateGUI
+            
+            Error in simulink.internal.SLComponent/updateGUIWrapper
+            
+            Error in simulink.internal.SLComponent/modelSelectionChanged
+            
+            Error in simulink.internal.SLComponent/initSimulation
+            
+            Error in simulink.internal.SLComponent/set.Simulation
+            
+            Error in Robot_SLSimApp/createComponents (line 580)
+                        app.VariableTuner.Simulation = app.Simulation;
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            Error in Robot_SLSimApp (line 679)
+                        createComponents(app)
+                        ^^^^^^^^^^^^^^^^^^^^^
+                Error using Simulink.findVars
+                Variable 'wp' has been deleted from base workspace.
+                
+                Error in simulink.sim.Variables/keys
+                
+                Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+                
+                Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+                
+                Error in simulink.ui.control.VariableTuner/updateGUI
+                
+                Error in simulink.internal.SLComponent/updateGUIWrapper
+                
+                Error in simulink.internal.SLComponent/modelSelectionChanged
+                
+                Error in simulink.internal.SLComponent/initSimulation
+                
+                Error in simulink.internal.SLComponent/set.Simulation
+                
+                Error in Robot_SLSimApp/createComponents (line 580)
+                            app.VariableTuner.Simulation = app.Simulation;
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                Error in Robot_SLSimApp (line 679)
+                            createComponents(app)
+                            ^^^^^^^^^^^^^^^^^^^^^
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'Robot', 'wp')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'wp', 'Robot', 'base workspace', 'normal', 'Waypoints', 'Robot/Polynomial Trajectory', ' ')">Fix</a>
+        Error using Simulink.findVars
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['Robot/Polynomial Trajectory'],'TimePoints');">'TimePoints'</a> in '<a href="matlab:open_and_hilite_hyperlink ('Robot/Polynomial Trajectory','error')">Robot/Polynomial Trajectory</a>'
+        
+        Error in simulink.sim.Variables/keys
+        
+        Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+        
+        Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+        
+        Error in simulink.ui.control.VariableTuner/updateGUI
+        
+        Error in simulink.internal.SLComponent/updateGUIWrapper
+        
+        Error in simulink.internal.SLComponent/modelSelectionChanged
+        
+        Error in simulink.internal.SLComponent/initSimulation
+        
+        Error in simulink.internal.SLComponent/set.Simulation
+        
+        Error in Robot_SLSimApp/createComponents (line 580)
+                    app.VariableTuner.Simulation = app.Simulation;
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        Error in Robot_SLSimApp (line 679)
+                    createComponents(app)
+                    ^^^^^^^^^^^^^^^^^^^^^
+            Error using Simulink.findVars
+            Unrecognized function or variable 'tp'.
+            
+            Error in simulink.sim.Variables/keys
+            
+            Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+            
+            Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+            
+            Error in simulink.ui.control.VariableTuner/updateGUI
+            
+            Error in simulink.internal.SLComponent/updateGUIWrapper
+            
+            Error in simulink.internal.SLComponent/modelSelectionChanged
+            
+            Error in simulink.internal.SLComponent/initSimulation
+            
+            Error in simulink.internal.SLComponent/set.Simulation
+            
+            Error in Robot_SLSimApp/createComponents (line 580)
+                        app.VariableTuner.Simulation = app.Simulation;
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            Error in Robot_SLSimApp (line 679)
+                        createComponents(app)
+                        ^^^^^^^^^^^^^^^^^^^^^
+                Error using Simulink.findVars
+                Variable 'tp' has been deleted from base workspace.
+                
+                Error in simulink.sim.Variables/keys
+                
+                Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+                
+                Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+                
+                Error in simulink.ui.control.VariableTuner/updateGUI
+                
+                Error in simulink.internal.SLComponent/updateGUIWrapper
+                
+                Error in simulink.internal.SLComponent/modelSelectionChanged
+                
+                Error in simulink.internal.SLComponent/initSimulation
+                
+                Error in simulink.internal.SLComponent/set.Simulation
+                
+                Error in Robot_SLSimApp/createComponents (line 580)
+                            app.VariableTuner.Simulation = app.Simulation;
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                Error in Robot_SLSimApp (line 679)
+                            createComponents(app)
+                            ^^^^^^^^^^^^^^^^^^^^^
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'Robot', 'tp')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'tp', 'Robot', 'base workspace', 'normal', 'TimePoints', 'Robot/Polynomial Trajectory', ' ')">Fix</a>
+        Error using Simulink.findVars
+        Error evaluating parameter <a href="matlab:Simulink.internal.OpenBlockParamsDialog(['Robot/Polynomial Trajectory'],'VelocityBoundaryCondition');">'VelocityBoundaryCondition'</a> in '<a href="matlab:open_and_hilite_hyperlink ('Robot/Polynomial Trajectory','error')">Robot/Polynomial Trajectory</a>'
+        
+        Error in simulink.sim.Variables/keys
+        
+        Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+        
+        Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+        
+        Error in simulink.ui.control.VariableTuner/updateGUI
+        
+        Error in simulink.internal.SLComponent/updateGUIWrapper
+        
+        Error in simulink.internal.SLComponent/modelSelectionChanged
+        
+        Error in simulink.internal.SLComponent/initSimulation
+        
+        Error in simulink.internal.SLComponent/set.Simulation
+        
+        Error in Robot_SLSimApp/createComponents (line 580)
+                    app.VariableTuner.Simulation = app.Simulation;
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        Error in Robot_SLSimApp (line 679)
+                    createComponents(app)
+                    ^^^^^^^^^^^^^^^^^^^^^
+            Error using Simulink.findVars
+            Unrecognized function or variable 'bc'.
+            
+            Error in simulink.sim.Variables/keys
+            
+            Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+            
+            Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+            
+            Error in simulink.ui.control.VariableTuner/updateGUI
+            
+            Error in simulink.internal.SLComponent/updateGUIWrapper
+            
+            Error in simulink.internal.SLComponent/modelSelectionChanged
+            
+            Error in simulink.internal.SLComponent/initSimulation
+            
+            Error in simulink.internal.SLComponent/set.Simulation
+            
+            Error in Robot_SLSimApp/createComponents (line 580)
+                        app.VariableTuner.Simulation = app.Simulation;
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            Error in Robot_SLSimApp (line 679)
+                        createComponents(app)
+                        ^^^^^^^^^^^^^^^^^^^^^
+                Error using Simulink.findVars
+                Variable 'bc' has been deleted from base workspace.
+                
+                Error in simulink.sim.Variables/keys
+                
+                Error in simulink.ui.control.VariableTuner/getTunableVariablesForSimulation
+                
+                Error in simulink.ui.control.VariableTuner/populateVisibleTunableVariables
+                
+                Error in simulink.ui.control.VariableTuner/updateGUI
+                
+                Error in simulink.internal.SLComponent/updateGUIWrapper
+                
+                Error in simulink.internal.SLComponent/modelSelectionChanged
+                
+                Error in simulink.internal.SLComponent/initSimulation
+                
+                Error in simulink.internal.SLComponent/set.Simulation
+                
+                Error in Robot_SLSimApp/createComponents (line 580)
+                            app.VariableTuner.Simulation = app.Simulation;
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                Error in Robot_SLSimApp (line 679)
+                            createComponents(app)
+                            ^^^^^^^^^^^^^^^^^^^^^
+                Suggested Actions:
+                    • Load a file into base workspace. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'loadFile', 'Robot', 'bc')">Fix</a>
+                    • Create a new variable. - <a href="matlab:slprivate('robustVarRefHotlink_cb', 'createEntry', 'bc', 'Robot', 'base workspace', 'normal', 'VelocityBoundaryCondition', 'Robot/Polynomial Trajectory', ' ')">Fix</a>

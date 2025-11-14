@@ -1,25 +1,26 @@
-# Robot Design and Control Project
+# Robot Design and Control
 
-This repository contains the files for the **Robot Design and Control** (Robot Tasarımı) course project. It includes:
+This repository contains the tarjectory planing example for a 6-DOF YASKAWA MH24 model robot that tracks all vertices of a cube defined in its workspace. Starting from the home position, the robot moves to each vertex of the cube in sequence and returns to the home position at the end.
 
-- Matlab/Simulink model files
-- STEP and SLDPRT files for the robot model
-- Example videos of the simulated robot
+The project includes:
+- Definnition of the cube in Cartesian space. (Workscape)
+- Inverse kinematics to compute joint angles for each vertex.
+- Trajectory planning to generate smooth paths between vertices.
+- Matlab scripts and Simulink model for simulation and visualization.
 
-## Matlab Model Screenshot
+Trajectory planning and control algorithms are implemented in MATLAB scripts, and the robot model is built using Simscape. The project also includes SolidWorks part files and their STEP exports for 3D modeling.
 
-The following image shows the Matlab/Simulink model used in this project:
+**Screenshot:**
 
-![Matlab Simulink Model](Matlab/Screenshot%202025-11-14%20194719.png)
+![Screenshot](Matlab/Screenshot 2025-11-14 194719.png)
 
-## Project Structure
-
-- `Matlab/` – Matlab and Simulink model files, assets, and generated artifacts.
-- `sldprt/` – Part files for the robot model.
-- `step/` – STEP files for the robot model.
-- `*.avi` – Demo videos of the robot project.
+## Contents
+- `Matlab/` — MATLAB scripts, Simulink model, and assets
+- `sldprt/` — SolidWorks part files
+- `step/` — STEP exports of parts
 
 ## License
+This project is licensed under the GNU GPLv3. See `LICENSE` for details.
 
-This project is licensed under the **GNU General Public License v3.0 (GNU GPLv3)**. See the `LICENSE` file for details.
-
+## Notes
+The screenshot file is referenced from `Matlab/Screenshot 2025-11-14 194719.png`.
