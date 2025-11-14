@@ -1,0 +1,13 @@
+# MATLAB intermediate files
+*.slxc
+*.asv
+slprj/
+*.mex*
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.log
+*.tmp
