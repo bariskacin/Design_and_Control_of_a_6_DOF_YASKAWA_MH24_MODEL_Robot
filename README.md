@@ -7,6 +7,7 @@
 **Video Demonstration:**
 https://youtu.be/_DluXOQhuWc?si=gg2KMpRMNR8qi_b0
 
+## Overview
 This repository contains a trajectory planning example for a 6-DOF YASKAWA MH24 model robot. The robot is programmed to track all vertices of a cube defined in its workspace. Starting from the home position, the robot moves to each vertex of the cube in sequence and returns to the home position at the end.
 
 
