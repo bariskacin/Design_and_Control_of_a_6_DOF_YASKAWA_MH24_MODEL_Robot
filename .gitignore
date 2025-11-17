@@ -1,8 +1,7 @@
-# MATLAB / Simulink / Windows ignores
-/
-# MATLAB generated
-/slprj/
-/work/
+
+# MATLAB/Simulink ignores
+slprj/
+work/
 *.asv
 *.mcr
 *.mexw64
@@ -10,32 +9,86 @@
 *.mexmaci64
 *.mexmaci
 *.mexglx
-
-# Simulink generated
-/slprj/
-/R202*/
+*.mdl.r2012a
+*.mdl.r2012b
+*.autosave
+*.bak
+*.backup
+*.log
+*.out
+*.tmp
+*.tmr
+*.tmw
+*.fig
+*.mat
+*.mltbx
+*.p
+*.slxc
+*.slddc
+*.sldd
+*.slx.autosave
+*.sldprt
+*.slx
+*.slxp
+*.mexa64
+*.mexmaci64
+*.mexw32
+*.mexw64
+R202*/
 
 # Build artifacts
 *.o
 *.obj
 *.dll
 *.exe
-
-# MATLAB settings
-*.mltbx
-*.mat
-*.fig
+*.so
+*.a
+*.lib
+*.exp
+*.pdb
+*.idb
+*.class
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.swp
+*.swo
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
 # Windows
 Thumbs.db
-desktop.ini
+ehthumbs.db
+Desktop.ini
+~$*
 
-# Visual Studio / VS Code
-/.vscode/
+# IDEs and editors
+.vscode/
 .vs/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
 
-# OneDrive temp files
+# Node/npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.env
+.venv
+env/
+venv/
+
+# OneDrive/Office temp files
 ~$*
