@@ -1,18 +1,21 @@
 # Robot Design and Control
 
-This repository contains the tarjectory planing example for a 6-DOF YASKAWA MH24 model robot that tracks all vertices of a cube defined in its workspace. Starting from the home position, the robot moves to each vertex of the cube in sequence and returns to the home position at the end.
+
+This repository contains a trajectory planning example for a 6-DOF YASKAWA MH24 model robot. The robot is programmed to track all vertices of a cube defined in its workspace. Starting from the home position, the robot moves to each vertex of the cube in sequence and returns to the home position at the end.
+
 
 The project includes:
-- Definnition of the cube in Cartesian space. (Workscape)
-- Inverse kinematics to compute joint angles for each vertex.
-- Trajectory planning to generate smooth paths between vertices.
-- Matlab scripts and Simulink model for simulation and visualization.
+- Definition of the cube in Cartesian space (Workspace)
+- Inverse kinematics to compute joint angles for each vertex
+- Trajectory planning to generate smooth paths between vertices
+- MATLAB scripts and Simulink model for simulation and visualization
+
 
 Trajectory planning and control algorithms are implemented in MATLAB scripts, and the robot model is built using Simscape. The project also includes SolidWorks part files and their STEP exports for 3D modeling.
 
 **Screenshot:**
 
-![Screenshot](Matlab/Screenshot 2025-11-14 194719.png)
+![Screenshot](Matlab/Screenshot%202025-11-14%20194719.png)
 
 ## Contents
 - `Matlab/` — MATLAB scripts, Simulink model, and assets
