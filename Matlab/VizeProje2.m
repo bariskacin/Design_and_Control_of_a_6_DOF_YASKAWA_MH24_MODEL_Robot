@@ -1,5 +1,5 @@
 %-----------------------------------------------------------------------%
-%%%%%%%%%%%%% Bu proje Barış KAÇİN tarafından hazırlanmıştır.%%%%%%%%%%%%
+%%%%%%%%%%%% Bu proje Barış KAÇİN tarafından hazırlanmıştır.%%%%%%%%%%%%%
 %-----------------------------------------------------------------------%
 
 clc; clear all; % Workspace ve Command Window temizle
@@ -9,6 +9,8 @@ run("create_MH24_model.m") % Robot modelini yükle
 robot = mh24_robot_model; % Robot modeli
 
 SimulinkModel = "Robot5.slx"; % Simulink modeli
+
+UcIslevciYonelimAcisi = 180; % Uç işlevcinin yönelim açısı
 
 % 0) Başlangıç eklem açısı (derece)
 q0_deg = [0 -45 90 90 -90 0];
@@ -22,11 +24,11 @@ P4 = [ -0.0005 0.5425 0.5125 ]'; % 4.Yörünge Planlaması
 P5 = [ 0.000 0.5435 0.507 ]';   % 5.Yörünge Planlaması
 P6 = [ 0.041 0.555 0.500 ]';    % 6.Yörünge Planlaması
 
-% Hepsini tek matriste toplandı
+% Bütün yörünge planlamalarını tek matriste topla
 P_all = [ P1 P2 P3 P4 P5 P6 ];
 
-% 2) Body6 yönelimi (sabit)
-orientation = roty(180);
+% 2) Uç işlevci yönelimi (sabit)
+orientation = roty(UcIslevciYonelimAcisi);
 
 % Her nokta için homojen dönüşüm matrisi (4x4x5)
 nPts = size(P_all,2);
